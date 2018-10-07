@@ -3,6 +3,11 @@ language: ruby
 rvm:
     - 2.5.1
     # - ruby-head
+env:
+  global:
+    MYSQL_USERNAME='root'
+    MYSQL_HOST='127.0.0.1'
+    MYSQL_SOCKET='~travis/.my.cnf'
 services:
     - mysql
 before_script:
