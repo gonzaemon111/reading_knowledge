@@ -12,50 +12,49 @@ This application environments below...
 
 * Configuration
 
-lint configuration : Rubocop
+    lint configuration : Rubocop
 
-test : RSpec
+    test : RSpec
 
 * Database
 
-MySQL ver 5.7 (gem ver 0.5.2)
+    MySQL ver 5.7 (gem ver 0.5.2)
 
 * How to setup
 
 
-```
+    ```
 
-git clone https://github.com/gonzaemon111/reading_knowledge/
+    git clone https://github.com/gonzaemon111/reading_knowledge/
 
-bundle install
+    bundle install
 
 
-bundle exec rails db:create
+    bundle exec rails db:create
 
-bundle exec rails db:migrate
+    bundle exec rails db:migrate
 
-bundle exec rails s -b 0.0.0.0
+    bundle exec rails s -b 0.0.0.0
 
-```
+    ```
 
 
 * How to test
 
-```
+    ```
 
-# rubcop
+    # rubcop
 
-bundle exec rubocop
+    bundle exec rubocop
 
-# RSpec
+    # RSpec
 
-bundle exec rspec (directori_name or .)
+    bundle exec rspec (directori_name or .)
 
 
-```
+    ```
 
 * Deployment instructions
 
-thinking now ...
+    thinking now ...
 
-* ...
