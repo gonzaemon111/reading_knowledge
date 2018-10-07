@@ -3,9 +3,6 @@ language: ruby
 rvm:
     - 2.5.1
     # - ruby-head
-env:
-  global:
-    MYSQL_SOCKET='~travis/.my.cnf'
 services:
     - mysql
 before_script:
