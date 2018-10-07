@@ -1,24 +1,58 @@
-# README
+# reading_knowledge README.md
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Social Network Service through reading books
 
-Things you may want to cover:
+This application environments below...
 
 * Ruby version
+2.5.1
 
-* System dependencies
+* Rails version
+5.2.1
 
 * Configuration
+lint configuration : Rubocop
+test : RSpec
 
-* Database creation
+* Database
+MySQL ver 5.7 (gem ver 0.5.2)
 
-* Database initialization
+* How to setup
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+``
+
+git clone https://github.com/gonzaemon111/reading_knowledge/
+
+bundle install
+
+
+bundle exec rails db:create
+
+bundle exec rails db:migrate
+
+bundle exec rails s -b 0.0.0.0
+
+``
+
+
+* How to test
+
+``
+
+# rubcop
+
+bundle exec rubocop
+
+# RSpec
+
+bundle exec rspec (directori_name or .)
+
+
+``
 
 * Deployment instructions
+
+thinking now ...
 
 * ...
